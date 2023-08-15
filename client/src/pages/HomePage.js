@@ -12,9 +12,7 @@ const HomePage = () => {
       <SideBar />
       <Main />
       <Icons />
-      <div className="custom-projects">
-        <Projects />
-      </div>
+      <Projects />
       <Footer />
     </div>
   );

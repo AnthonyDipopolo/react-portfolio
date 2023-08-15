@@ -15,7 +15,7 @@ const Projects = () => {
       screenshot: '/assets/screenshots/moodSync.png',
     },
     {
-      id: 'projectModal2', // You can use a different id if needed
+      id: 'projectModal2', 
       title: 'Note Taker',
       description: 'This website is a note-taking app designed to help users stay organized by allowing them to input, store, and retrieve notes with clickable JSON entries.',
       overview: "This note-taking app is designed to help users stay organized by providing features such as storing titles and notes inputted by the user. The app allows notes to be stored in a JSON file and made clickable, enabling easy retrieval back into the input boxes. Users can also utilize the 'Create New' button to clear input boxes and the 'Save Note' button to save their desired notes, making it a comprehensive tool for creating and organizing notes.",

@@ -17,7 +17,7 @@ const Card = ({ title, description, screenshot, links, overview }) => {
         </button>
       </div>
       {isModalOpen && (
-        <div className="modal-overlay">
+        <div className="card-modal-overlay">
           <div className="custome-modal-content">
             <div className="modal-body">
               <h3 className='border'>{title}</h3>

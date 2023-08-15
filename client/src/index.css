@@ -101,7 +101,6 @@ footer a {
 
 }
 
-/* Center the navigation in the sidebar using Flexbox */
 .custome-navbar {
   display: flex;
   flex-direction: column;
@@ -110,7 +109,7 @@ footer a {
 
 .custome-navbar-hover:hover{
   background-color: #000000;
-  color: lightgrey;
+  color: lightgrey !important;
 }
 
 .custome-bg-main {
@@ -180,7 +179,7 @@ footer a {
 }
 
 /* Style for the modal overlay */
-.modal-overlay {
+.card-modal-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -190,7 +189,7 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000; /* Ensure the modal is above other content */
+  z-index: 500; 
 }
 
 /* Style for the modal content */
@@ -224,7 +223,7 @@ footer a {
 }
 
 /* Apply blur to the background when the modal is open */
-.modal-open .modal-overlay {
+.modal-open .card-modal-overlay {
   backdrop-filter: blur(5px);
 }
 

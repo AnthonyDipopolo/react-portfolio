@@ -30,12 +30,12 @@ const MessageFrom = () => {
     return (
       <div className="pt-5 mt-5">
       <div className="text-center">
-        <a
+        <button
           className="no-underline icon-custome-color pointer"
           onClick={handleShowModal}
         >
-          <FontAwesomeIcon icon={faMessage} className="mr-2" /> Contact Me {/* Added icon and a margin-right */}
-        </a>
+          <FontAwesomeIcon icon={faMessage} className="mr-2" /> Contact Me 
+        </button>
   
           {/* Modal */}
           {showModal && (
