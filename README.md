@@ -6,13 +6,10 @@ This website is the react version of my portfolio. The purpose of the site is to
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+https://anthony-dipopolo-portfolio.netlify.app
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![website screenshot](./client/public/assets/screenshots/Screen%20Shot%202023-08-15%20at%201.05.05%20PM.png)
+![website screenshot](./client/public/assets/screenshots/Screen%20Shot%202023-08-15%20at%201.05.36%20PM.png)
 
 ## License
 
