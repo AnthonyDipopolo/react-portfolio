@@ -5,14 +5,18 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="footer bg-footer-custome text-center"> {/* Add the text-center class here */}
+    <footer className="footer bg-footer-custome text-center">
+      {/* Footer container */}
       <div className="footer footer-ml">
         <div className="row">
+          {/* Contact Me section */}
           <div className="col-md-6 mt-4 footer">
             <h4 id="contact-me">Contact Me</h4>
+            {/* Phone */}
             <p>
               <FontAwesomeIcon icon={faPhone} /> Phone: +1 (201) 998-5209
             </p>
+            {/* Email */}
             <a href="mailto:anthony.dipopolo@gmail.com">
               <FontAwesomeIcon
                 icon={faEnvelope}
@@ -21,9 +25,12 @@ const Footer = () => {
               Email: anthony.dipopolo@gmail.com{' '}
             </a>
           </div>
+          {/* Follow Me section */}
           <div className="col-md-6 mt-4">
             <h4>Follow Me</h4>
+            {/* Social icons */}
             <div className="social-icons d-flex justify-content-center">
+              {/* Indeed Profile */}
               <a
                 className="icon-link icon-link-hover no-underline icon-custome-color"
                 style={{ '--bs-link-hover-color-rgb': '25, 135, 84' }}
@@ -31,6 +38,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon icon={faUser} size="2x" />
               </a>
+              {/* LinkedIn */}
               <a href="https://www.linkedin.com/in/anthony-dipopolo-4a65bb263/">
                 <FontAwesomeIcon
                   icon={faLinkedinIn}
@@ -38,6 +46,7 @@ const Footer = () => {
                   className="p-2 icon-custome-color"
                 />
               </a>
+              {/* GitHub */}
               <a href="https://github.com/AnthonyDipopolo">
                 <FontAwesomeIcon
                   icon={faGithub}
@@ -54,7 +63,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-

@@ -5,14 +5,18 @@ import Icons from '../components/Icons';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 
-
 const HomePage = () => {
   return (
     <div className="">
+      {/* Render SideBar component */}
       <SideBar />
+      {/* Render Main component */}
       <Main />
+      {/* Render Icons component */}
       <Icons />
+      {/* Render Projects component */}
       <Projects />
+      {/* Render Footer component */}
       <Footer />
     </div>
   );
