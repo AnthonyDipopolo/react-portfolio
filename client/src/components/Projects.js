@@ -66,7 +66,7 @@ const Projects = () => {
     {
       id: 'projectModal6',
       title: 'Weather Dashboard',
-      description: 'This application provides weather forecasts for user-specified cities. It features a search history that retains previously selected cities, offering quick access to their forecasts. Users can revisit weather predictions for past cities by clicking on them.',
+      description: 'This application provides weather forecasts for user-specified cities. It features a search history that retains previously selected cities, offering quick access to their forecasts.',
       overview: "Experience the power of weather forecasting with our innovative application that brings you up-to-date weather insights for cities of your choice. Seamlessly tailored to your preferences, this platform combines convenience and comprehensive weather data to empower your daily planning. With a user-friendly interface, this app invites you to explore and predict the weather conditions for any city you desire. Stay ahead of changing climates by effortlessly inputting your chosen city, instantly gaining access to its weather forecast.",
       links: [
         { url: "https://anthonydipopolo.github.io/weather-dashboard-api/", text: "Weather Dashboard" },
