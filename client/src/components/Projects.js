@@ -59,7 +59,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className={`col-md-4 col-lg-3 col-xl-3 mb-4`}
+            className={`col-md-4 col-lg-3 col-xl-3 mb-4 card-container`}
           >
             <Card
               title={project.title}
