@@ -13,7 +13,9 @@ const Icons = () => {
     { icon: faNodeJs, label: 'Node.js', description: 'Familiarity with Node.js for server-side JavaScript development and building scalable web applications.' },
     { icon: faReact, label: 'React', description: 'Proficient in React library for building interactive and reusable user interfaces.' },
     { icon: faNodeJs, label: 'Express', description: 'Experience in using Express.js for building web applications and RESTful APIs.' },
-    { icon: faDatabase, label: 'MySQL', description: 'Experience in using MySQL for database management and SQL queries.' }
+    { icon: faDatabase, label: 'MySQL', description: 'Experience in using MySQL for database management and SQL queries.' },
+    { icon: faDatabase, label: 'MongoDB', description: 'Experience in using MongoDB for NoSQL database management and data modeling.' }
+
   ];
 
   // Icon colors corresponding to the iconData array
@@ -25,7 +27,8 @@ const Icons = () => {
     '#339933', // Node.js
     '#61DAFB', // React
     '#000000', // Express
-    'darkblue' // MySQL
+    'darkblue', // MySQL
+    'green' // MongoDB
   ];
 
   return (

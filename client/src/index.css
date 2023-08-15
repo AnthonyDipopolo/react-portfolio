@@ -309,3 +309,23 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
 }
+
+
+@media (max-width: 450px) {
+  #sticky-sidebar {
+    position: static; 
+    width: 100%; 
+    order: -1; 
+    text-align: center; 
+  }
+  
+  .rounded-circle {
+    display: none;
+  }
+  
+  .text-center {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+}
+
