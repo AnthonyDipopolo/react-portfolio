@@ -8,7 +8,7 @@ const Card = ({ title, description, screenshot, links, overview }) => {
   };
 
   return (
-    <div className={`card ${isModalOpen ? 'modal-open' : ''}`}>
+    <div className={`card-border ${isModalOpen ? 'modal-open' : ''}`}>
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
         <p className="card-text">{description}</p>

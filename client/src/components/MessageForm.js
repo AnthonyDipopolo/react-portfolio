@@ -40,9 +40,9 @@ const MessageFrom = () => {
           {/* Modal */}
           {showModal && (
             <div className="form-modal">
-              <div className="form-modal-content">
+              <div className="form-modal-content z-index">
                 <span className="form-close" onClick={handleCloseModal}>&times;</span>
-                <form onSubmit={handleFormSubmit}>
+                <form className="z-index" onSubmit={handleFormSubmit}>
                   <div className="form-group">
                     <label htmlFor="name">Name</label>
                     <input
