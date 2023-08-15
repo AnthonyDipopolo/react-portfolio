@@ -10,7 +10,7 @@ const Card = ({ title, description, screenshot, links, overview }) => {
   return (
     <div className={`card-border ${isModalOpen ? 'modal-open' : ''}`}>
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
+        <h5 className="card-title pb-2">{title}</h5>
         <p className="card-text">{description}</p>
         <button className="btn btn-primary" onClick={toggleModal}>
           View Project
