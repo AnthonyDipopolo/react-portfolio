@@ -31,7 +31,7 @@ const MessageForm = () => {
   };
 
   return (
-    <div className="pt-5 mt-5">
+    <div className="pt-4 mt-4">
       <div className="text-center">
         {/* Button to open the modal */}
         <button
