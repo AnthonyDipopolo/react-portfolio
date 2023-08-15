@@ -1,4 +1,4 @@
-# <Anthony-Dipopolo-React-Portfolio>
+# Anthony-Dipopolo-React-Portfolio
 
 ## Description
 
