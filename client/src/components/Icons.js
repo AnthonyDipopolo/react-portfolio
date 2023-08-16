@@ -32,7 +32,7 @@ const Icons = () => {
   ];
 
   return (
-    <div id="languages" className="col pt-4 marginLeft">
+    <div id="languages" className="col pt-4 marginLeft no-ml">
       <div className="row">
         {/* Map through iconData array to render icons and descriptions */}
         {iconData.map((item, index) => (
