@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Follow Me section */}
-          <div className="col-md-6 mt-4">
+          <div className="col-md-6 mt-3">
             <h4>Follow Me</h4>
             {/* Social icons */}
             <div className="social-icons d-flex justify-content-center">
