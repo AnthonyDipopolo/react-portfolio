@@ -5,19 +5,19 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
-    <footer className="footer bg-footer-custome text-center">
+    <footer className="footer bg-footer-custome text-center-footer text-center">
       {/* Footer container */}
       <div className="footer footer-ml">
         <div className="row">
           {/* Contact Me section */}
-          <div className="col-md-6 mt-4 footer">
+          <div className="col-md-6 mt-3 footer">
             <h4 id="contact-me">Contact Me</h4>
             {/* Phone */}
-            <p>
+            <p className='mb-0'>
               <FontAwesomeIcon icon={faPhone} /> Phone: +1 (201) 998-5209
             </p>
             {/* Email */}
-            <a href="mailto:anthony.dipopolo@gmail.com">
+            <a className="mb-2" href="mailto:anthony.dipopolo@gmail.com">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="icon-custome-color"

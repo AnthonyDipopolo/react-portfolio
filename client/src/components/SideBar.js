@@ -24,7 +24,7 @@ const StickySidebar = () => {
           {/* Display profile image */}
           <img
             src="https://placehold.co/100x100"
-            className="rounded-circle d-block mx-auto"
+            className="d-block mx-auto rounded-circle"
             alt="head shot"
           />
           {/* Introduction */}
@@ -35,7 +35,7 @@ const StickySidebar = () => {
         {/* Row for social links and navigation */}
         <div className="row">
           <div className="col-md-12">
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-sidebar evenly">
               {/* GitHub link */}
               <a
                 className="icon-link icon-link-hover no-underline mb-3 icon-custome-color"

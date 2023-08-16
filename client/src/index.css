@@ -165,6 +165,10 @@ footer a {
   
 }
 
+.justify-content-sidebar {
+  justify-content: space-between;
+}
+
 .marginLeft{
   margin-left: 250px;
 }
@@ -318,13 +322,18 @@ textarea {
     order: -1; 
     text-align: center; 
   }
-  
+
   .rounded-circle {
     display: none;
   }
-  
+
   .text-center {
     margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+
+  .text-center-footer {
+    margin-bottom: 0% !important;
     font-size: 1.2rem;
   }
 
@@ -341,5 +350,10 @@ textarea {
   .footer-ml {
     margin-left: 0%;
   }
+
+  .evenly {
+    justify-content: space-evenly !important;
+  }
+
 }
 
