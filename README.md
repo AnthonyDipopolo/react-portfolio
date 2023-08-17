@@ -8,8 +8,8 @@ This website is the react version of my portfolio. The purpose of the site is to
 
 https://anthony-dipopolo-portfolio.netlify.app
 
-![website screenshot](./client/public/assets/screenshots/Screen%20Shot%202023-08-15%20at%201.05.05%20PM.png)
-![website screenshot](./client/public/assets/screenshots/Screen%20Shot%202023-08-15%20at%201.05.36%20PM.png)
+![website screenshot](./client/public/assets/screenshots/Screen%20Shot%202023-08-16%20at%209.59.48%20PM.png)
+![website screenshot](./client/public/assets/screenshots/Screen%20Shot%202023-08-16%20at%2010.00.07%20PM.png)
 
 ## License
 
