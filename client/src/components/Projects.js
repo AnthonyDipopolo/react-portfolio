@@ -77,7 +77,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="marginLeft no-ml">
+    <div id="projects" className="marginLeft no-ml">
       <div className="row">
         {/* Map over project data to render Card components */}
         {projects.map((project) => (
