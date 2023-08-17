@@ -65,14 +65,14 @@ const Projects = () => {
     },
     {
       id: 'projectModal6',
-      title: 'Weather Dashboard',
-      description: 'This application provides weather forecasts for user-specified cities. It features a search history that retains previously selected cities, offering quick access to their forecasts.',
-      overview: "Experience the power of weather forecasting with our innovative application that brings you up-to-date weather insights for cities of your choice. Seamlessly tailored to your preferences, this platform combines convenience and comprehensive weather data to empower your daily planning. With a user-friendly interface, this app invites you to explore and predict the weather conditions for any city you desire. Stay ahead of changing climates by effortlessly inputting your chosen city, instantly gaining access to its weather forecast.",
+      title: 'Sugarland Shuffle',
+      description: "This game is based on the one and only Candy Crush. In Sugarland Shuffle, players will swipe and swap their way through different levels in order to rack up the highest scores.",
+      overview: "To play the game, users move the colorful candy pieces around in order to match at least three candies of the same color in a row or column. As moves are made successfully, the pieces will vanish and the user's score will increase. In addition to game play, users have the option to create an account and log in to save and access high scores. There is also a comment section where users can post tips and tricks to help other players succeed. If the player would like to advance to Level 2, they have the option to pay for additional access.",
       links: [
-        { url: "https://anthonydipopolo.github.io/weather-dashboard-api/", text: "Weather Dashboard" },
-        { url: "https://github.com/AnthonyDipopolo/weather-dashboard-api", text: "Weather Dashboard Github Repository" }
+        { url: "https://whispering-beyond-40525-11166fa0492b.herokuapp.com", text: "Sugarland Shuffle" },
+        { url: "https://github.com/dancohen6/group_4_project_3", text: "Sugarland Shuffle Github Repository" }
       ],
-      screenshot: '/assets/screenshots/weatherDashboard.png',
+      screenshot: '/assets/screenshots/sugarlandShuffle.png',
     }
   ];
 
