@@ -38,7 +38,7 @@ const Card = ({ title, description, screenshot, links, overview }) => {
                 </React.Fragment>
               ))}
               {/* Display project screenshot */}
-              <img src={screenshot} alt="Screenshot" className="modal-screenshot" />
+              <img src={screenshot} alt="Screenshot" className="modal-screenshot project-image" />
             </div>
             <div className="modal-footer top-border custom-modal-footer">
               {/* Button to close the modal */}

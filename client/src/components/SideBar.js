@@ -23,8 +23,8 @@ const StickySidebar = () => {
           <h5 className="text-center pt-4">Anthony Di Popolo</h5>
           {/* Display profile image */}
           <img
-            src="https://placehold.co/100x100"
-            className="d-block mx-auto rounded-circle"
+            src="/assets/screenshots/anthony.png"
+            className="d-block mx-auto rounded-circle thumbnail-image"
             alt="head shot"
           />
           {/* Introduction */}
