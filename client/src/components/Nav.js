@@ -3,7 +3,7 @@ import React from 'react';
 const Nav = () => {
   return (
     // Navigation bar
-    <nav className="navbar pt-5">
+    <nav className="navbar pt-4">
       {/* Container for navigation elements */}
       <div className="container-fluid custome-navbar">
         <div className="align-items-center justify-content-center" id="navbarNav">
