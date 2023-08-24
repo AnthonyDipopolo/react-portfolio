@@ -55,7 +55,7 @@ const Projects = () => {
     {
       id: 'projectModal5',
       title: 'Twitter Clone',
-      description: 'This application enables signed-in users to create, edit, and delete thoughts, which appear on the dashboard and home screen. Others can comment on these thoughts, fostering interaction among users.',
+      description: 'Signed-in users can create, edit, and delete thoughts, which appear on the dashboard and home screen. Others can also comment on these thoughts, fostering interaction among users.',
       overview: "This full-stack application empowers users to express their thoughts. Upon signing in, users can create thoughts, visible on the dashboard and home screen. These thoughts are editable and removable. Users can also engage by commenting on posts. The app's core purpose is enabling users to seamlessly create, read, edit, and delete thoughts, fostering collaborative sharing among users.",
       links: [
         { url: "https://tech-blog-ad-c32ea018bfd0.herokuapp.com/", text: "Twitter Clone" },
