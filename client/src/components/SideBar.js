@@ -6,14 +6,6 @@ import Nav from './Nav';
 import MessageForm from './MessageForm';
 
 const StickySidebar = () => {
-  // Function to handle resume download
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/assets/resume/anthonyResume.pdf';
-    link.download = 'anthonyResume.pdf';
-    link.click();
-  };
-
   return (
     <div className="pt-0">
       {/* Sticky sidebar */}
@@ -48,8 +40,8 @@ const StickySidebar = () => {
               <a
                 className="icon-link icon-link-hover no-underline mb-3 icon-custome-color"
                 style={{ "--bs-link-hover-color-rgb": "25, 135, 84" }}
-                href="/assets/resume/anthonyResume.pdf"
-                onClick={handleDownload}
+                href="/assets/resume/anthonyResume.docx"
+                download="anthonyResume.docx"
               >
                 <FontAwesomeIcon icon={faFileAlt} size="2x" />
               </a>
