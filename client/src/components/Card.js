@@ -18,7 +18,7 @@ const Card = ({ title, description, screenshot, links, overview }) => {
         {/* Display project description */}
         <p className="card-text">{description}</p>
         {/* Button to open the modal */}
-        <button className="btn btn-primary" onClick={toggleModal}>
+        <button className="btn btn-primary project-btn" onClick={toggleModal}>
           View Project
         </button>
       </div>

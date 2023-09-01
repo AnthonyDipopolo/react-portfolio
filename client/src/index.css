@@ -314,6 +314,10 @@ textarea {
   cursor: pointer;
 }
 
+.project-btn{
+  justify-content: flex-end;
+}
+
 
 @media (max-width: 450px) {
   #sticky-sidebar {
