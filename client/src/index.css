@@ -192,7 +192,6 @@ footer a {
   z-index: 500; 
 }
 
-/* Style for the modal content */
 .custome-modal-content {
   background-color: #ffffff;
   border-radius: 8px;
@@ -201,7 +200,10 @@ footer a {
   width: 80%;
   max-width: 750px;
   text-align: center;
+  overflow-y: auto; /* Vertical scrollbar will appear if content overflows */
+  max-height: 80vh;
 }
+
 
 /* Style for the modal close button */
 .close {
