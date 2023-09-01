@@ -11,17 +11,20 @@ const Card = ({ title, description, screenshot, links, overview }) => {
   };
 
   return (
-    <div className={`card-border ${isModalOpen ? 'modal-open' : ''}`}>
-      <div className="card-body">
+    <div className={`card-border project-card-container ${isModalOpen ? 'modal-open' : ''}`}>
+      <div className="card-body card-center d-flex">
         {/* Display project title */}
-        <h5 className="card-title pb-2">{title}</h5>
+        <h5 className="card-title pb-2 card-center">{title}</h5>
         {/* Display project description */}
-        <p className="card-text">{description}</p>
-        {/* Button to open the modal */}
-        <button className="btn btn-primary project-btn" onClick={toggleModal}>
-          View Project
-        </button>
+        <p className="card-text d-flex">{description}</p>
+        <div className='card-center justify-content-end button-end'>
+          {/* Button to open the modal */}
+          <button className="btn btn-primary" onClick={toggleModal}>
+            View Project
+          </button>
+        </div>
       </div>
+
       {isModalOpen && (
         <div className="card-modal-overlay">
           <div className="custome-modal-content">
