@@ -15,10 +15,10 @@ const Nav = () => {
                 Home
               </a>
             </li>
-            {/* Languages link */}
+            {/* Skills link */}
             <li className="nav-item">
               <a className="nav-link custome-navbar-hover custome-navbar" href="#languages">
-                Languages
+                Skills
               </a>
             </li>
             {/* Projects link */}
