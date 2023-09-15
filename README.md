@@ -2,7 +2,7 @@
 
 ## Description
 
-This website is the react version of my portfolio. The purpose of the site is to display my projects and expirences. The website is also for the use of future employeers to be able to contact me if neeed be. Lastly this website provides my resume for any future employers as well.
+This website is the react version of my portfolio. The purpose of the site is to display my projects and expirences. The website is also for the use of future employeers to be able to contact me if need be. Lastly this website provides my resume for any future employers as well.
 
 ## Usage
 
