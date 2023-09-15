@@ -1,8 +1,4 @@
 import HomePage from './pages/HomePage';
-import ReactGA from 'react-ga';
-
-ReactGA.initialize('G-HD8ZP6XW7W');
-
 
 function App() {
   return (
