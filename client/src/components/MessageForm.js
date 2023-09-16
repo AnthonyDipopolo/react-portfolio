@@ -34,7 +34,7 @@ const MessageForm = () => {
     formDataObj.append('name', formData.name);
     formDataObj.append('email', formData.email);
     formDataObj.append('message', formData.message);
-    formDataObj.append('access_key', '9e788996-c3ac-4321-b586-4df8ce5771cb'); // Replace with your actual API key
+    formDataObj.append('access_key', '9e788996-c3ac-4321-b586-4df8ce5771cb');
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
