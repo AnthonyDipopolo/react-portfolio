@@ -54,6 +54,7 @@ const MessageForm = () => {
     } catch (error) {
       setResult('An error occurred while submitting the form');
     }
+    console.log('Result:', result);
   };
 
   return (
