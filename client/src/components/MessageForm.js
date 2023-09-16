@@ -6,10 +6,13 @@ const MessageForm = () => {
   // State to manage modal and form data
   const [showModal, setShowModal] = useState(false);
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const [result, setResult] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false); // New state for form submission status
 
   // Function to close the modal
   const handleCloseModal = () => {
     setShowModal(false);
+    setIsSubmitted(false);
   };
 
   // Function to show the modal
@@ -23,11 +26,34 @@ const MessageForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  // Function to handle form submission
-  const handleFormSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    console.log(formData);
-    handleCloseModal();
+    setResult('Sending....');
+
+    const formDataObj = new FormData();
+    formDataObj.append('name', formData.name);
+    formDataObj.append('email', formData.email);
+    formDataObj.append('message', formData.message);
+    formDataObj.append('access_key', '9e788996-c3ac-4321-b586-4df8ce5771cb'); // Replace with your actual API key
+
+    try {
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataObj,
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        setResult('Form data submitted successfully');
+        setIsSubmitted(true); // Set the submission status to true
+        // Clear the form inputs
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        setResult('Form data submission failed');
+      }
+    } catch (error) {
+      setResult('An error occurred while submitting the form');
+    }
   };
 
   return (
@@ -48,7 +74,7 @@ const MessageForm = () => {
               {/* Close button for the modal */}
               <span className="form-close" onClick={handleCloseModal}>&times;</span>
               {/* Form for user input */}
-              <form onSubmit={handleFormSubmit}>
+              <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="name">Name</label>
                   <input
@@ -80,6 +106,8 @@ const MessageForm = () => {
                 </div>
                 <button className='form-button' type="submit">Submit</button>
               </form>
+              {/* Display a success message if the form is submitted */}
+              {isSubmitted && <p className='pt-2'>Message submitted!</p>}
             </div>
           </div>
         )}
