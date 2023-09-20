@@ -44,7 +44,7 @@ const Projects = () => {
     {
       id: 'projectModal4',
       title: 'Random Password Generator',
-      description: ' JavaScript-based tool offering customizable password generation with options for lowercase, uppercase, numbers, and special characters.',
+      description: ' JavaScript-based tool offering customizable password generation with a multitude of options.',
       overview: "This JavaScript code serves as a password generator, designed to create strong and random passwords based on user preferences. When using the code, users have the flexibility to choose whether to include lowercase letters, uppercase letters, numbers, and special characters in their passwords, tailoring the password's complexity to their security needs. Additionally, the code prompts the user to enter the desired length of the password, empowering them to generate passwords with varying levels of strength and uniqueness. By incorporating user input, this password generator provides a customizable and robust solution to enhance password security for various applications and platforms.",
       links: [
         { url: "https://anthonydipopolo.github.io/random-password-generator-js/", text: "Random Password Generator" },
