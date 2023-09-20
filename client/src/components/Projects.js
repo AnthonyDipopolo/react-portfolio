@@ -7,11 +7,11 @@ const Projects = () => {
     {
       id: 'projectModal1',
       title: 'Mood Sync',
-      description: "Utilized JavaScript, HTML, CSS, Node.js, Express, MongoDB, Mongoose, and APIs to create an emotional journal app with dynamic color visualization and interactive data graph.",
+      description: "Utilized JavaScript, HTML, TailwindCSS, Node.js, Express, MySQL, Sequelize, and APIs to create an emotional journal app with dynamic color visualization and interactive data graph.",
       overview: "MoodSync is a revolutionary platform that captures users' emotional states through expressive journal-style input, dynamically translating those emotions into a stunning array of vibrant colors on the emotional color spectrum, providing users with a visually captivating reflection of their feelings. Additionally, MoodSync features an interactive graph that dynamically stores and visually represents all users' emotional data, presenting a comprehensive view of the collective emotions in a dynamic and informative bar graph. This unique combination of individualized color representations and collective emotional insights empowers users to better understand their emotional journey and fosters a sense of connection within the MoodSync community.",
       links: [
         { url: 'https://moodsync-calendar-1a40e0647873.herokuapp.com/', text: 'Mood Sync' },
-        { url: 'https://github.com/Reyesfrancisp/MoodSync_Calendar.git', text: 'Mood Sync Github' }
+        { url: 'https://github.com/Reyesfrancisp/MoodSync_Calendar.git', text: 'Mood Sync Github Repository' }
       ],
       screenshot: '/assets/screenshots/moodSync.png',
     },
@@ -23,7 +23,7 @@ const Projects = () => {
 
       links: [
         { url: "https://express-note-taker-ad-39bdba79f2e9.herokuapp.com/", text: "Note Taker" },
-        { url: "https://github.com/AnthonyDipopolo/express_note_taker", text: "Note Taker Github" }
+        { url: "https://github.com/AnthonyDipopolo/express_note_taker", text: "Note Taker Github Repository" }
 
 
       ],
@@ -37,7 +37,7 @@ const Projects = () => {
 
       links: [
         { url: "https://anthonydipopolo.github.io/api-code-quiz/", text: "Web Developer Code Quiz" },
-        { url: "https://github.com/AnthonyDipopolo/api-code-quiz", text: "Web Developer Code Quiz Github" }
+        { url: "https://github.com/AnthonyDipopolo/api-code-quiz", text: "Web Developer Code Quiz Github Repository" }
       ],
       screenshot: '/assets/screenshots/devQuiz.png',
     },
